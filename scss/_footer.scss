@@ -1,0 +1,122 @@
+$black-green-color: #141A20;
+
+.footer {
+    min-height: 240px;
+    min-width: 1440px;
+    background-color: $black-green-color;
+    margin: 0 auto;
+
+    &__block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 42px 25px 50px 249px;
+        color: #fff;
+
+        &-company {
+            margin-right: 71px;
+            max-width: 250px;
+            .block-comapny-title {
+                margin-bottom: 19px;
+
+            }
+        }
+
+        &-links {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            h5 {
+                margin-bottom: 10px;
+            }
+
+            .links {
+                list-style-type: none;
+                li {
+                    margin-bottom: 10px;
+                    &:nth-child(1) {
+                        margin-bottom: 20px;
+                    }
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .faq {
+                list-style: none;
+                padding-left: 40px;
+                li {
+                    margin-bottom: 10px;
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .blog { 
+                list-style: none;
+                padding-left: 40px;
+                li {
+                    margin-bottom: 10px;
+                    a {
+                        color: #fff;
+                        text-decoration: none;
+                    }
+                }
+            }
+        }   
+
+        .contacts {
+            margin-left: 58px;
+            max-width: 141px;
+
+            &-title {
+                margin-bottom: 10px;
+            }
+
+            &-list {
+                list-style-type: none;
+                li {
+                    margin-bottom: 10px;
+                }
+            }
+        }
+
+        .contacts-logos {
+            margin-left: 46px;
+            display: flex;
+            position: relative;
+            align-items: flex-start;
+            justify-content: start;
+            &-block {
+                display: flex;
+                top: 0;
+                left: 0;
+                position: absolute;
+                align-items: flex-start;
+                img {
+                    display: block;
+                    margin-left: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+
+.copyright {
+    min-width: 1440px;
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #171819;  
+    h5 {
+        text-align: center;
+        color: #fff;
+        font-size: 11px;
+    }
+}

@@ -1,0 +1,44 @@
+$black-burn-color: #171819;
+$black-green-color: #48555B;
+$blue-color: #00A4E5;
+
+.sign-up {
+    color: #fff;
+    margin: 0 auto;
+    min-width: 1440px;
+    min-height: 100px;
+    background-color: $black-burn-color;
+
+    &-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+
+        h4 {
+            margin-right: 77px;
+        }
+
+        form {
+            margin: 0;
+            padding: 0;
+
+            input {
+                min-width: 250px;
+                min-height: 40px;
+                background-color: #fff;
+                color: $black-green-color;
+                outline: none;
+            }
+
+            button {
+                min-width: 250px;
+                min-height: 40px;
+                background-color: $blue-color;
+                color: #fff;
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+}

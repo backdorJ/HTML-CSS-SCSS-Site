@@ -1,0 +1,77 @@
+$black-gray-color: #48555B;
+$blue-color: #00A4E5;
+$white-color: #fff;
+
+.our-story {
+    margin-bottom: 118px;
+    min-width: 1440px;
+    &-title {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        color: $black-gray-color;
+        position: relative;
+        margin-bottom: 94px;
+
+        &::after {
+            content: '';
+            width: 50px;
+            margin-top: 5px;
+            height: 3px;
+            display: block;
+            position: absolute;
+            background-color: $blue-color;
+            top: 80%;
+            left: 47%;
+        }
+    }
+
+    &-block {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+
+        &-info {
+            max-width: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &-title {
+                max-width: 400px;
+                font-size: 20px;
+                font-weight: 400;
+                margin-bottom: 40px;
+                color: $black-gray-color;
+            
+                span {
+                    color: $blue-color;
+                }            
+            }
+
+            &-desc {
+                color: $black-gray-color;
+                letter-spacing: 0.19px;
+            }
+        }
+
+        &-images {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+
+            &-item {
+                position: relative;
+                .out-team-title-first {
+                    position: absolute;
+                    text-transform: uppercase;
+                    color: $white-color;
+                    padding: 15px 55px 151px 14px;
+                    font-size: 23px;
+                    top: 0;
+                    left: 0;
+                    letter-spacing: .19px;
+                }
+            }
+        }
+    }
+}

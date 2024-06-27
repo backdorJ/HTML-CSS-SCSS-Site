@@ -1,0 +1,31 @@
+$black-gray-color: #48555B;
+$blue-color: #00A4E5;
+
+.get-in-touch {
+    background-image: url(/img/get-in-touch-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1440px;
+    min-height: 500px;
+    text-align: center;
+
+    &-title {
+        margin: 0 auto;
+        padding-top: 120px;
+        font-size: 30px;
+        letter-spacing: .15px;
+        color: $black-gray-color;
+        max-width: 350px;
+        margin-bottom: 35px;
+    }
+
+    &-btn {
+        color: #fff;
+        font-size: 13px;
+        letter-spacing: 0.5px;
+        text-decoration: none;
+        padding: 14px 23px 11px 23px;
+        background-color: $blue-color;
+    }
+}
